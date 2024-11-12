@@ -23,6 +23,7 @@ public class Movie {
 		setDirector(uD);
 		setYear(uY);
 		setGenre(uG);
+		//default as 0 until given rating by user
 		this.rating = 0;
 	}
 	
@@ -85,6 +86,15 @@ public class Movie {
 		}
 	}
 	
+	public void setRating(int uR) {
+		if(uR >= 1 || uR <= 5) {
+			this.rating = uR;
+		}else {
+			//false -> default (0)
+			this.rating = 0;
+		}
+	}
+	
 	/*	format:
 	 * 	<<title>>. Directed by <<director>>, <<year>>. 
 	 * 	Genre: <<genre>> 
@@ -98,7 +108,7 @@ public class Movie {
 	public String toString() {
 		String line1 = this.title + ". Directed by " + this.director + ", " + this.year + "\n";
 		String line2 = "Genre: " + this.genre + "\n";
-		String line3 = "Rating: " + this.rating + "\n";
+		String line3 = "Rating: " + this.rating + "\n\n";
 		return line1 + line2 + line3;
 	}
 }
