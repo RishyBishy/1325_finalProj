@@ -104,6 +104,15 @@ public class MovieCollection {
 		}
 	}
 	
+	public void rateMovie(String uT, int uR) {
+		for(int i = 0; i < movies.length - 1; i++) {
+			if(movies[i].getTitle().equals(uT)) {
+				movies[i].setRating(uR);
+				return;
+			}
+		}
+	}
+	
 	public void listAllMovies() {
 		for(int i = 0; i < movies.length - 1; i++) {
 			if(movies[i] == null) {	
