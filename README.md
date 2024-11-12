@@ -1,2 +1,2 @@
 # 1325_finalProj
-group project for my 1325 object oriented programming class
+group project for CSE 1325 object-oriented programming class
