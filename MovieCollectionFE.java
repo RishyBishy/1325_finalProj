@@ -105,8 +105,8 @@ public class MovieCollectionFE {
 				movieCollection.searchByGenre(genre);
 				break;
 			default:
-				System.out.println("Invalid option, please try again.");
-				break;
+				System.out.println("Invalid option, please try again.\n");
+				searchMovies();
 		}
 	}
 	
@@ -115,7 +115,12 @@ public class MovieCollectionFE {
 	private static void rateMovie() {
 		movieCollection.listAllMovies();
 		System.out.println("\nEnter a title from one of the movies in the collection above that you would like to rate: ");
+		String title = scan.nextLine();
 		
+		System.out.println("Enter your rating (1-5): ");
+		int rating = Integer.parseInt(scan.nextLine());
+		
+		movieCollection.rateMovie(title, rating);
 		//actual rating process
 	}
 }
