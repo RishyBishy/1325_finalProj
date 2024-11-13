@@ -1,5 +1,6 @@
 # Movie Collection Manager
 A group project for the CSE 1325 Object-Oriented Programming class
+
 Made by: Alex Sterba, Bryan Nguyen, Aaron Miller, Raihana Hussein Mera, Rishav Chatterjee
 
 ## How to Run
