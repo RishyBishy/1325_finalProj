@@ -1,7 +1,8 @@
-# 1325_finalProj
-group project for CSE 1325 object-oriented programming class
+# Movie Collection Manager
+A group project for the CSE 1325 Object-Oriented Programming class
+Made by: Alex Sterba, Bryan Nguyen, Aaron Miller, Raihana Hussein Mera, Rishav Chatterjee
 
-# How to Run
+## How to Run
 1. Compile all .java files in the finalProj package.
 2. Run the MovieCollectionFE class:
 ~~~
@@ -9,13 +10,13 @@ java finalProj.MovieCollectionFE
 ~~~
 4. Follow the console prompts to add, search, remove, rate, and list movies.
 
-# Example Usage
+## Example Usage
 - Add a Movie: Enter movie details like title, director, release year, and genre.
 - Search: Use title, director, or genre to find a movie.
 - Rate: Rate a specific movie from 1 to 5.
 - List All Movies: See a list of all movies in the collection.
 
-# Notes
+## Notes
 - Ratings are on a 1-5 scale; movies without a rating display as 0.
 - The program supports a maximum collection size based on the initial input during setup.
 - Ensure input values (such as year) are realistic to avoid default values.
