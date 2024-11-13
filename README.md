@@ -4,8 +4,10 @@ group project for CSE 1325 object-oriented programming class
 # How to Run
 1. Compile all .java files in the finalProj package.
 2. Run the MovieCollectionFE class:
-> java finalProj.MovieCollectionFE
-3. Follow the console prompts to add, search, remove, rate, and list movies.
+~~~
+java finalProj.MovieCollectionFE
+~~~
+4. Follow the console prompts to add, search, remove, rate, and list movies.
 
 # Example Usage
 - Add a Movie: Enter movie details like title, director, release year, and genre.
